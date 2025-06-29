@@ -2,7 +2,7 @@ import { Loader } from "lucide-react";
 import { useEffect } from "react";
 import { Toaster } from "react-hot-toast";
 import { Navigate, Route, Routes } from "react-router-dom";
-import NavBar from "./components/NavBar";
+import Navbar from "./components/Navbar";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import ProfilePage from "./pages/ProfilePage";
@@ -28,7 +28,7 @@ const App = () => {
     );
   return (
     <div data-theme={theme}>
-      <NavBar />
+      <Navbar />
       <Routes>
         <Route
           path="/"
